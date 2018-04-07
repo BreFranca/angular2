@@ -1,6 +1,6 @@
 <div class="jumbotron">
   <h1 class="text-center">Alurapic</h1>
   <div class="container">
-    <foto></foto>
+    <foto *ngFor="Let foto of fotos" url="{{foto.url}}" alt="{{foto.titulo}}"></foto>
   </div>
 </div>

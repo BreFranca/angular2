@@ -5,4 +5,4 @@ import { FotoComponent } from './foto.component';
     declarations: [ FotoComponent ],
     exports: [ FotoComponent ]
 })
-export class FotoModule {}
+export class FotoModule {  }
